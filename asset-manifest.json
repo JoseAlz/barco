@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/barco/static/css/main.8107a7da.css",
+    "main.js": "/barco/static/js/main.ad806341.js",
+    "static/media/main.wav": "/barco/static/media/main.81075da5f824f671167f.wav",
+    "static/media/captureIt.ttf": "/barco/static/media/captureIt.87dae59b958d92f98629.ttf",
+    "static/media/background-main.jpg": "/barco/static/media/background-main.a53eecafec23d0407f84.jpg",
+    "static/media/gong.wav": "/barco/static/media/gong.affbd39425e5c8a33ecc.wav",
+    "static/media/splash.wav": "/barco/static/media/splash.ed1ae9a39e44737816a4.wav",
+    "static/media/skull-crossbones.png": "/barco/static/media/skull-crossbones.d23576c2bd699f5ef58e.png",
+    "static/media/missile-launch.wav": "/barco/static/media/missile-launch.30249ca549112195d935.wav",
+    "static/media/victory.png": "/barco/static/media/victory.eeedc314e3bae6af3ec1.png",
+    "static/media/hit.wav": "/barco/static/media/hit.e9d32524e9e10c9d8079.wav",
+    "static/media/8bit.ttf": "/barco/static/media/8bit.2ebf1a35a67b4271603e.ttf",
+    "static/media/title.png": "/barco/static/media/title.7c26af7c5feefcbb64c4.png",
+    "index.html": "/barco/index.html",
+    "main.8107a7da.css.map": "/barco/static/css/main.8107a7da.css.map",
+    "main.ad806341.js.map": "/barco/static/js/main.ad806341.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8107a7da.css",
+    "static/js/main.ad806341.js"
+  ]
+}
