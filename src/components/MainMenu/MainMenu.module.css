@@ -1,0 +1,83 @@
+@import url("../../assets//fonts//captureIt.css");
+
+.menu-container {
+  position: absolute;
+  top: calc(100vh / 2 - 150px);
+  width: 100%;
+  animation: titleFade 4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: top 0.3s ease-in-out;
+}
+
+.game-title {
+  transform: scale(1);
+}
+
+.slide-to-top {
+  top: 0 !important;
+}
+
+.inputs-container {
+  opacity: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: block;
+  text-align: center;
+}
+
+.name-input {
+  font-family: "CaptureIt", sans-serif;
+  color: rgb(194, 192, 192);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 10px;
+  background-color: black;
+  height: 2.2rem;
+  width: 250px;
+  display: block;
+}
+
+.start-button {
+  margin-top: 20px;
+  width: 250px;
+  height: 2.3rem;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.name-input:focus {
+  outline: none;
+}
+
+.text {
+  margin-top: 50px;
+  font-size: 2.2rem;
+  color: #FFC900;
+}
+
+@keyframes titleFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .game-title {
+    transform: scale(0.5);
+  }
+}

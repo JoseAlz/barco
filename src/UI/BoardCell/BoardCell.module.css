@@ -1,0 +1,46 @@
+.board-cell {
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgb(34, 42, 116);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-cell {
+  background-color: rgba(65, 105, 225, 0.486);
+}
+
+.patrol-boat-cell {
+  background-color: rgba(3, 77, 3, 0.651);
+}
+
+.destroyer-cell {
+  background-color: rgba(8, 3, 77, 0.651);
+}
+
+.battleship-cell {
+  background-color: rgba(62, 3, 77, 0.651);
+}
+
+.carrier-cell {
+  background-color: rgba(3, 56, 77, 0.651);
+}
+
+.invalid-cell {
+  background-color: rgba(255, 56, 56, 0.486) !important;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed !important;
+}
+
+.ship-cell-hit {
+  background-color: rgba(255, 56, 56, 0.486) !important;
+}
+
+.empty-cell-hit {
+  background-color: rgba(11, 57, 116, 0.884) !important;
+  color: white;
+}

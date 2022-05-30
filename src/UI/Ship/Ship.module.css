@@ -1,0 +1,24 @@
+.ship-container {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.ship-count {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.ship {
+  display: flex;
+}
+
+.warning {
+  color: rgba(224, 75, 75, 0.808);
+}

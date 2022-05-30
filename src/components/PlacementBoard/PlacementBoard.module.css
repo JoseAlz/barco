@@ -1,0 +1,13 @@
+.cells-container {
+  border: 5px solid rgb(24, 33, 114);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 460px;
+  height: 460px;
+}
+
+@media (max-width: 768px) {
+  .cells-container {
+    margin-bottom: 20px;
+  }
+}

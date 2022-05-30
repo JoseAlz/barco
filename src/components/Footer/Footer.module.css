@@ -1,0 +1,22 @@
+.footer-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.margin-right {
+  margin-right: 20px;
+}
+
+.links {
+  text-decoration: none;
+  color: rgb(230, 13, 13);
+}
+
+.footer-text{
+  font-size: 1.2rem;
+  margin-right: 20px;
+  color: #FFC600;
+}

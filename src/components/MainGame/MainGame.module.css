@@ -1,0 +1,81 @@
+@import url("../../assets/fonts/captureIt.css");
+
+.main-game-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  animation: fadein 0.5s;
+}
+
+.human-board-container {
+  border: 5px solid rgb(24, 33, 114);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 460px;
+  height: 460px;
+}
+.cpu-board-container {
+  border: 5px solid rgb(114, 24, 114);
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 460px;
+  height: 460px;
+}
+
+.vs-logo {
+  margin-bottom: 20px;
+}
+
+.center-panel {
+  margin: 0 20px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.player-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.player-name {
+  font-family: "CaptureIt", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 2px;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.attack {
+  color: rgb(133, 11, 11);
+  font-size: 2rem;
+  transition: font-size 0.3s ease-in-out;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-game-container {
+    flex-direction: column;
+  }
+  .vs-logo {
+    display: none;
+  }
+
+  .center-panel{
+    height: auto;
+    margin: 20px 0;
+  }
+}

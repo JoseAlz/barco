@@ -1,0 +1,72 @@
+@import url("../../assets/fonts/captureIt.css");
+
+.board-setup-container {
+  text-align: center;
+}
+
+.fading-out {
+  animation: fadeout 0.5s;
+}
+
+.ship-placement-container {
+  display: flex;
+  padding-top: 50px;
+  animation: fadein 0.5s;
+}
+
+.start-button {
+  margin-top: 40px;
+  width: 250px;
+  height: 2.3rem;
+  font-weight: bold;
+  background-color: rgba(235, 228, 129, 0.935);
+  border-width: 3px;
+  cursor: pointer;
+}
+
+.message {
+  font-family: "CaptureIt", sans-serif;
+  letter-spacing: 1.5px;
+  color: #781D42;
+  
+}
+
+.text{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+  color: #FFC900;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 100%;
+  }
+  to {
+    opacity: 0%;
+  }
+}
+
+@media (max-width: 768px) {
+  .ship-placement-container {
+    flex-direction: column;
+    padding: 0;
+  }
+  .message {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .text{
+    width: 460px;
+  }
+}

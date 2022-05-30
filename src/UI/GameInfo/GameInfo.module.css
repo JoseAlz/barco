@@ -1,0 +1,47 @@
+@import url("../../assets//fonts/8bit.css");
+
+.gameinfo-container {
+  font-family: "EightBit", sans-serif;
+  width: 200px;
+  height: 300px;
+  background-color: black;
+  border-top: 5px solid grey;
+  border-left: 5px solid grey;
+  border-bottom: 5px solid rgb(65, 65, 65);
+  border-right: 5px solid rgb(65, 65, 65);
+  text-align: left;
+  padding: 10px;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.gameinfo-container::-webkit-scrollbar {
+  display: none;
+}
+
+.text-title {
+  color: darkgrey;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.text-line {
+  color: darkgrey;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
+}
+
+.green {
+  color: rgb(3, 250, 3);
+}
+
+.restart-btn{
+  font-family: "EightBit", sans-serif;
+  font-size: 0.6rem;
+  padding:5px;
+  width: 100%;
+  border-width: 3px;
+  background-color: rgba(255,255,255,0.6);
+}
